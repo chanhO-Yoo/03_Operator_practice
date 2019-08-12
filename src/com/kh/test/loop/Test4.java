@@ -24,8 +24,8 @@ public class Test4 {
 		
 		//영문자 여부 검사
 		//inputChar이 대문자인지, 소문자인지 확인
-//		if(Character.isUpperCase(inputChar) || Character.isLowerCase(inputChar)) {
-		if(('a' <= inputChar && inputChar <='z') || ('A' <= inputChar && inputChar <='Z')) {
+		if(Character.isUpperCase(inputChar) || Character.isLowerCase(inputChar)) {
+//		if(('a' <= inputChar && inputChar <='z') || ('A' <= inputChar && inputChar <='Z')) {
 			//문자열의 길이만큼 맨처음부터 끝까지 반복
 			//입력한 문자열에서 찾을 문자 갯수 확인
 			for (int i = 0; i < inputStr.length(); i++) {
