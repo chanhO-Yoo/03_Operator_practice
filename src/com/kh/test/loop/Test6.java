@@ -53,7 +53,7 @@ public class Test6 {
 		}
 		System.out.println();
 		System.out.println("==================");
-		double avgPrice = Double.parseDouble(inputArr1[3]))+Double.parseDouble(inputArr2[3])+Double.parseDouble(inputArr3[3])+Double.parseDouble(inputArr4[3])+Double.parseDouble(inputArr5[3]);
+		double avgPrice = Double.parseDouble(inputArr1[3])+Double.parseDouble(inputArr2[3])+Double.parseDouble(inputArr3[3])+Double.parseDouble(inputArr4[3])+Double.parseDouble(inputArr5[3]);
 		System.out.println("평균 상품 가격 : " + avgPrice);
 		
 	}
