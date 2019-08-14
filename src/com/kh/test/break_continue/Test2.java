@@ -1,5 +1,6 @@
 package com.kh.test.break_continue;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Test2 {
@@ -12,6 +13,12 @@ public class Test2 {
 	public void test() {
 		int count=0;//정답 시도 횟수
 		int rndNum = (int)(Math.random()*100); //임의의 난수 발생
+
+		//Random클래스 이용하기
+//		Random rnd = new Random();
+//		int rNum = rnd.nextInt();
+		
+		
 //		System.out.println(rndNum);
 		
 		Scanner sc = new Scanner(System.in);
