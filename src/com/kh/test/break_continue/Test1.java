@@ -49,6 +49,7 @@ public class Test1 {
 		}
 	}
 	
+	//사용자로부터 두개의 정수를 입력받아, 작은 값에서 큰 값까지 홀수의 합을 구하세요.
 	public void test3() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("첫번째 정수를 입력하세요 : ");
